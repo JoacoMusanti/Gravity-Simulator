@@ -1,0 +1,62 @@
+﻿newtonian gravity simulator v2.0.0
+
+What does this program do?
+--------------------------
+
+This program simulates the gravitational interaction between particles in a scene
+using the Newton laws of gravity and motion. The user can add any particles they want
+to the scene and they can specify the particle's name, mass, position and initial velocity.
+They can also save the current scene with all its particles and their current states
+to a file so that it can be loaded later. All the particles are point-like, so no collision
+detection is done. 
+
+Dependencies
+------------
+
+This program requires the Boost libraries and GLFW.
+
+Boost:
+
+http://www.boost.org/
+
+NOTE: This program only uses boost::system and boost::thread, so if you
+don't want to compile the entire Boost libraries you can compile and install only those
+mentioned above.
+
+GLFW:
+
+http://www.glfw.org/
+
+Compilation and installation
+----------------------------
+
+To compile the program, first make sure to meet all the dependencies mentioned above.
+Then, navigate to the program's main directory, ex:
+
+    $ cd newton_current_yyyy_mm_dd/
+
+and execute the following commands:
+
+    $ autoreconf -i
+    $ ./configure
+    $ make
+
+make will create a binary file called newton inside the src/ directory, if you want to
+run the program from there you can do so. If, however, you want to execute the program
+from some other place, you can run:
+
+    # make install
+
+This will install the program in /usr/local/bin/ by default.
+
+License
+-------
+
+Read the COPYING file
+
+Bug submission
+--------------
+
+Submit any bugs you encounter to the following address:
+
+    joakomusanti@gmail.com

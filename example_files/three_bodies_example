@@ -1,0 +1,4 @@
+TIME="0" TIMESTEP="150" GRAV="6.67384e-11"
+NAME="Default" MASS="2e+20" POS="-1e+09 0 0" ACCEL="0 0 0" VEL="0 0 0"
+NAME="qwd" MASS="4e+20" POS="1e+09 0 0" ACCEL="0 0 0" VEL="0 0 0"
+NAME="daw" MASS="2e+20" POS="0 0 1e+09" ACCEL="0 0 0" VEL="0 0 0"
