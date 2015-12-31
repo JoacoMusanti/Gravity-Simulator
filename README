@@ -7,25 +7,18 @@ This program simulates the gravitational interaction between particles in a scen
 using the Newton laws of gravity and motion. The user can add any particles they want
 to the scene and they can specify the particle's name, mass, position and initial velocity.
 They can also save the current scene with all its particles and their current states
-to a file so that it can be loaded later. All the particles are point-like, so no collision
-detection is done. 
+to a file so that it can be loaded later. 
 
 Dependencies
 ------------
 
-This program requires the Boost libraries and GLFW.
-
-Boost:
-
-http://www.boost.org/
-
-NOTE: This program only uses boost::system and boost::thread, so if you
-don't want to compile the entire Boost libraries you can compile and install only those
-mentioned above.
+This program requires GLFW and freeglut.
 
 GLFW:
 
 http://www.glfw.org/
+
+You can also use NuGet to acquire the packages
 
 Compilation and installation
 ----------------------------
@@ -48,6 +41,9 @@ from some other place, you can run:
     # make install
 
 This will install the program in /usr/local/bin/ by default.
+
+You can also compile this software using Visual Studio by opening the solution file
+newton.sln, setting up the references to external libraries and compiling.
 
 License
 -------
